@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const { PORT } = require("./config/serverConfig");
 const connect = require("./config/database.js");
 const apiRoutes = require("./routes/index.js");
-//const User = require("./models/user.js");
+const User = require("./models/user.js");
 // const UserService = require("./services/user-service.js");
 const app = express();
 
